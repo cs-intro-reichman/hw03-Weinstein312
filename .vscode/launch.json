@@ -37,7 +37,8 @@
             "name": "LowerCase",
             "request": "launch",
             "mainClass": "LowerCase",
-            "projectName": "hw03-Weinstein312_78281d35"
+            "projectName": "hw03-Weinstein312_78281d35",
+            "args": ["This IS ACTUALLY,, A test String!"]
         },
         {
             "type": "java",
