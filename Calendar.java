@@ -17,10 +17,17 @@ public class Calendar {
 	    // The following variable, used for debugging purposes, counts how many days were advanced so far.
         year = Integer.parseInt(args[0]);
         int tempYear = year;
+        String isSunday = "";
+
 	 	while (true) {
-			System.out.println(dayOfMonth + "/" + month + "/" + year);	
+            isSunday = "";
+			if (dayOfWeek == 1) {
+				isSunday = " Sunday";
+			}
+
+			System.out.println(dayOfMonth + "/" + month + "/" + year + isSunday);	
 	 		advance();
-            
+
 	 		//// Stop looping when the year flips
 	 		if (year != tempYear) { 
 	 			break;

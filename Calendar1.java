@@ -19,13 +19,17 @@ public class Calendar1 {
 	    // The following variable, used for debugging purposes, counts how many days were advanced so far.
 	    int debugDaysCounter = 0; 
 		String isSunday = "";
+		int firstSundayCounter = 0;
 	    //// Write the necessary initialization code, and replace the condition
 	    //// of the while loop with the necessary condition 
 	 	while (true) {
-	 		//// Write the body of the while 
 			isSunday = "";
 			if (dayOfWeek == 1) {
 				isSunday = " Sunday";
+
+				if (dayOfMonth == 1) {
+					firstSundayCounter++;
+				}
 			}
 			System.out.println(dayOfMonth + "/" + month + "/" + year + isSunday);	
 	 		advance();
@@ -33,6 +37,8 @@ public class Calendar1 {
 	 		//// If you want to stop the loop after n days, replace the condition of the
 	 		//// if statement with the condition (debugDaysCounter == n)
 	 		if (debugDaysCounter == 36524) { 
+				System.out.println();
+				System.out.println("During the 20th century, " + firstSundayCounter + " Sundays fell on the first day of the month.");
 	 			break;
 	 		}
         }
