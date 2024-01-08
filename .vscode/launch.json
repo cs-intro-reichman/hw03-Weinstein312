@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Calendar",
+            "request": "launch",
+            "mainClass": "Calendar",
+            "projectName": "hw03-Weinstein312_78281d35",
+            "args": "2021"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -15,7 +23,8 @@
             "name": "Calendar0",
             "request": "launch",
             "mainClass": "Calendar0",
-            "projectName": "hw03-Weinstein312_78281d35"
+            "projectName": "hw03-Weinstein312_78281d35",
+            "args": "1990"
         },
         {
             "type": "java",
@@ -30,7 +39,11 @@
             "request": "launch",
             "mainClass": "LoanCalc",
             "projectName": "hw03-Weinstein312_78281d35",
-            "args": ["100000", "5", "10"]
+            "args": [
+                "100000",
+                "5",
+                "10"
+            ]
         },
         {
             "type": "java",
@@ -38,7 +51,9 @@
             "request": "launch",
             "mainClass": "LowerCase",
             "projectName": "hw03-Weinstein312_78281d35",
-            "args": ["This IS ACTUALLY,, A test String!"]
+            "args": [
+                "This IS ACTUALLY,, A test String!"
+            ]
         },
         {
             "type": "java",
