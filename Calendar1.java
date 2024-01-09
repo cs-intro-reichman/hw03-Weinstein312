@@ -35,7 +35,6 @@ public class Calendar1 {
 	 		advance();
 	 		debugDaysCounter++;
 	 		//// If you want to stop the loop after n days, replace the condition of the
-	 		//// if statement with the condition (debugDaysCounter == n)
 	 		if (debugDaysCounter == 36524) { 
 				System.out.println();
 				System.out.println("During the 20th century, " + firstSundayCounter + " Sundays fell on the first day of the month.");
@@ -55,8 +54,8 @@ public class Calendar1 {
 
 		dayOfWeek++;
 		dayOfWeek %= 7;
-
 		dayOfMonth++;
+
 		if (dayOfMonth > nDaysInMonth) {
 			month++;
 			dayOfMonth = 1;

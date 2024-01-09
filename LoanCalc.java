@@ -47,13 +47,6 @@ public class LoanCalc {
 		while (endBalance(loan, rate, n, g) > 0) {
 			g += epsilon;
 			iterationCounter++;
-
-			/**System.out.println("********");
-			System.out.println("g: " + g);
-			System.out.println("endbalance: " + endBalance(loan, rate, n, g));
-			System.out.println("********");
-			System.out.println();
-			i++;*/
 		}
     	return g;
     }

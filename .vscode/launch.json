@@ -60,7 +60,8 @@
             "name": "UniqueChars",
             "request": "launch",
             "mainClass": "UniqueChars",
-            "projectName": "hw03-Weinstein312_78281d35"
+            "projectName": "hw03-Weinstein312_78281d35",
+            "args": ["yael played the yokelele"]
         }
     ]
 }
